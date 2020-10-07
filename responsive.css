@@ -11,11 +11,11 @@
        width: auto;
    }
    #btn-button:checked ~ .navbar-menu {
-    display: flex;
-    flex-direction: row;
-    position: static;
-    width: auto;
-   }
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+    }
    #btn-button:checked ~ .button-close{
     display: none;
     }
@@ -56,6 +56,9 @@
         color: #060A24;
         letter-spacing: 0;
         line-height: 42px;
+        flex-wrap: wrap;
+        max-height: 48px;
+       max-width: 628px;
     }
     
     .title-flex span:nth-child(2){
@@ -65,12 +68,12 @@
         color: blue;
     }
     .title-flex{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 42px;
-    }
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+        }
     header{
         margin-top: 120px;
         margin-left: 10%;
@@ -118,8 +121,8 @@
     }
     .phone{
         padding-top: 64px;
-        width: 457.6px;
-        height: 660px;
+        width: 450px;
+        height: 700px;
         position: relative;
         top: -250px;
     }
@@ -151,6 +154,7 @@
         letter-spacing: 0;
         line-height: 24px;
         padding-top: 24px;
+        margin-right: 250px;
     }
    
     .invitados h2{
@@ -214,20 +218,20 @@
         padding-bottom: 36px;
         text-align: center;
       }
-      .episodios-contenido{
+      .novedades-contenido{
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 150px;
     }
-    .episodios-contenido h6{
+    .novedades-contenido h6{
       font-family: 'IBM Plex Sans', sans-serif;
       font-size: 48px;
       color: #FFFFFF;
       letter-spacing: 0;
       text-align: center;
     }
-    .episodios-contenido a{
+    .novedades-contenido a{
       font-family: 'IBM Plex Mono', monospace;
       display: flex;
       justify-content: center;
