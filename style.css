@@ -173,6 +173,8 @@ header p{
 .iframes iframe {
     margin: 5.5px 5.5px;
     width: 80%;
+    background-color: transparent;
+    border: 0;
 }
 
 .episodios h2 {
@@ -320,8 +322,8 @@ header p{
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    padding: 13px 43px;
-    margin: 36px 16px 16px 16px;
+    padding: 13px 13px;
+    margin: 36px 36px 16px 16px;
     
 }
 .footer{
